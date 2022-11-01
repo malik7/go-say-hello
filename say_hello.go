@@ -1,5 +1,5 @@
 package go_say_hello
 
-func SayHello() string {
-	return "Hello World! Malik. Ini adalah update versi"
+func SayHello(name string) string {
+	return "Hello World! "+name+". Ini adalah update versi"
 }
